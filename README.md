@@ -23,7 +23,7 @@ keypress_pins = [board.D10,          board.D5,           board.D6,              
 keys_pressed  = [Keycode.LEFT_ARROW, Keycode.SPACEBAR,   Keycode.RIGHT_ARROW,    Keycode.F]   # F is for full screen
 ```
 
-Pin names such as `board.D10` can be found by typing into REPL of circuitpython running on XIAO like following:
+Pin names such as `D10` can be found by typing into REPL of circuitpython running on XIAO like following:
 ```
 >>> import board
 >>> dir(board)
@@ -31,7 +31,7 @@ Pin names such as `board.D10` can be found by typing into REPL of circuitpython 
 >>>
 ```
 
-Similar, keycodes such as `keycode.LEFT_ARROW` can also be found via REPL:
+Similar, keycodes such as `LEFT_ARROW` can also be found via REPL:
 ```
 >>> from adafruit_hid.keycode import *
 >>> dir(Keycode)
