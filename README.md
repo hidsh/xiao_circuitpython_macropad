@@ -10,7 +10,7 @@ It is made on a bread board.
 However it contains only the minimum required lib/py in order to use as HID keyboard because XIAO does not have enough flash.
 Plus many lines are commented out in `lib/keycode.py` for the same reason.
 
-It need to download `.uf2` from [here](https://circuitpython.org/board/seeeduino_xiao/) before running.
+It needs to download `.uf2` from [here](https://circuitpython.org/board/seeeduino_xiao/) before running.
 
 # Memo
 
