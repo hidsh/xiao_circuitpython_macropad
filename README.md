@@ -31,6 +31,14 @@ Pin names such as `board.D10` can be found by typing into REPL of circuitpython 
 >>>
 ```
 
+Similar, keycodes such as `keycode.LEFT_ARROW` can also be found via REPL:
+```
+>>> from adafruit_hid.keycode import *
+>>> dir(Keycode)
+['__module__', '__qualname__', 'F', 'SPACEBAR', 'SPACE', 'RIGHT_ARROW', 'LEFT_ARROW', 'LEFT_CONTROL', 'CONTROL', 'LEFT_SHIFT', 'SHIFT', 'LEFT_ALT', 'ALT', 'OPTION', 'LEFT_GUI', 'GUI', 'WINDOWS', 'COMMAND', 'RIGHT_CONTROL', 'RIGHT_SHIFT', 'RIGHT_ALT', 'RIGHT_GUI', 'modifier_bit']
+>>>
+```
+
 ## LED polarity
 
 Inverted for XIAO's onboard LED.
