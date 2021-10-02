@@ -5,10 +5,7 @@
 This is a tiny prototype of USB macro pad using [seeduino XIAO](https://wiki.seeedstudio.com/Seeeduino-XIAO/) and [curcuitpython](https://circuitpython.org/).
 It is made on a bread board.
 
-`code.py` is based on [CircuitPython Keyboard Emulator](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse#circuitpython-keyboard-emulator-2985260-1) from adafruit.
-
-However it contains only the minimum required lib/py in order to use as HID keyboard because XIAO does not have enough flash.
-Plus many lines are commented out in `lib/keycode.py` for the same reason.
+`code.py` is based on [CircuitPython Keyboard Emulator](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse#circuitpython-keyboard-emulator-2985260-1) from adafruit. However it contains only the minimum required lib/py in order to use as HID keyboard because XIAO does not have enough flash.Plus many lines are commented out in `lib/keycode.py` for the same reason.
 
 It needs to download `.uf2` from [here](https://circuitpython.org/board/seeeduino_xiao/) before running.
 
