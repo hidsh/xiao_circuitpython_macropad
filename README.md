@@ -43,7 +43,7 @@ led.value = False
 led.value = True
 ```
 
-# tested environment
+# Tested environment
 
 - circuitpython: [7.0.0](https://circuitpython.org/board/seeeduino_xiao/)
 - library: [adafruit-circuitpython-bundle-py-20210930.zip](https://circuitpython.org/libraries)
