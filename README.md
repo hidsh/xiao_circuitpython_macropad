@@ -11,7 +11,7 @@ It needs to download `.uf2` from [here](https://circuitpython.org/board/seeeduin
 
 # Memo
 
-`code.py` has some modifications from the one in the [CircuitPython Keyboard Emulator](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse#circuitpython-keyboard-emulator-2985260-1).
+`code.py` has some modifications from the original in the [CircuitPython Keyboard Emulator](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse#circuitpython-keyboard-emulator-2985260-1).
 
 ## Corresponding of pin outs and keymap 
 
